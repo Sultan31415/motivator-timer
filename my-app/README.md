@@ -1,12 +1,49 @@
-# React + Vite
+# 💪 Motivator Timer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple yet motivating React app that challenges you with a countdown timer and cheers you on with motivational messages!
 
-Currently, two official plugins are available:
+🌐 **Live Demo**: [motivator-timer.vercel.app](https://motivator-timer.vercel.app)  
+📁 **Repository**: [github.com/Sultan31415/motivator-timer](https://github.com/Sultan31415/motivator-timer)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ✅ Level 1 — Beginner
+- [x] Input field to enter your name
+- [x] “Start Timer” button
+- [x] Countdown from 10 seconds
+- [x] Shows message: “Ты справился, [Имя] 💪” when finished
+- [x] Reset button to restart
+
+### ⚡ Level 2 — Confident React Warrior
+- [x] Random motivational messages
+- [x] Start button disabled while timer is running
+- [x] Shows: “[Name], осталось 7 сек” style messages
+- [x] Try Again button
+
+### 🔥 Level 3 — Pro Creative
+- [ ] Time selection: 10 / 20 / 30 seconds
+- [ ] Saves name to `localStorage`
+- [ ] Tracks how many times timer completed
+- [ ] Progress bar
+- [ ] Animation or sound when time ends
+
+---
+
+## 🧠 Tech Stack
+
+- ⚛️ React + Vite
+- 🧠 React Hooks: `useState`, `useEffect`
+- 💅 CSS for basic styling
+- 🚀 Deployed on Vercel
+
+---
+
+## 🛠️ Getting Started
+
+```bash
+git clone https://github.com/Sultan31415/motivator-timer
+cd motivator-timer/my-app
+npm install
+npm run dev
